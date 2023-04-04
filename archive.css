@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('Roboto-Medium.ttf') format('truetype');
+}
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.archive{
+    width:100%;
+}
+
+.head a {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 2em ;
+    color: blue ;
+    font-family: 'roboto';
+    position:fixed;
+    text-decoration-line: none;
+   }
