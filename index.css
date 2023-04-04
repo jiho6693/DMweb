@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'roboto';
+    font-family: 'roboto-medium';
     src: url('Roboto-Medium.ttf') format('truetype');
 }
 body {
@@ -9,41 +9,57 @@ body {
     margin-bottom: 0px;
     -ms-overflow-style: none;
  }
+
+.main {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
  
 ::-webkit-scrollbar {
   display: none;
 }
 
+.marquee{   
+    font-family: 'roboto-medium';  
+    color: white;
+    background-color: black;
+    padding-top: 0.5ch; 
+    padding-bottom: 0.5ch; 
+    font-size: 3em;
+}
 
 
-.main img{
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    width: 100%;
-    
-}   
 
-.description
-{
-    font-family: 'roboto';    
+.description{
+    font-family: 'roboto-light';    
     text-align: center;
     font-size: 2em ;
     color: black;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 3ch;
+    margin-left: 3ch;
+
+}
+
+
+.poster img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position:center;
 
 }
 
 .archive{
-    font-family: 'roboto';    
+    font-family: 'roboto-medium';    
     text-align: center;
-    font-size: 2em ;
-    text-align:center;
+    font-size: 3em ;
     background-color: black;
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px
+    padding-top: 0.5ch;
+    padding-bottom: 0.5ch;
+    margin-bottom:0px;
 }
 
 .archive a:link, a:visited{
