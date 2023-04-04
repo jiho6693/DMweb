@@ -2,7 +2,15 @@
     font-family: 'roboto-medium';
     src: url('Roboto-Medium.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'longhaul';
+    src: url('Longhaul.ttf') format('truetype');
+
+}
+
+
 body {
+    background-color: black;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -19,43 +27,51 @@ body {
   display: none;
 }
 
+.target::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+
+
 .marquee{   
-    font-family: 'roboto-medium';  
+    font-family: 'longhaul';  
     color: white;
     background-color: black;
     padding-top: 0.5ch; 
-    padding-bottom: 0.5ch; 
+    padding-bottom: 0.3ch; 
     font-size: 3em;
 }
 
 
 
 .description{
+    background-color: white;
     font-family: 'roboto-light';    
     text-align: center;
     font-size: 2em ;
     color: black;
-    margin-right: 3ch;
-    margin-left: 3ch;
+    padding-top: 3ch;
+    padding-bottom: 3ch;
+    padding-right: 3ch;
+    padding-left: 3ch;
 
 }
 
 
-.poster img{
+.poster video{
     max-width: 100%;
     height: auto;
-    display: block;
     margin-bottom: 0px;
     margin-top: 0px;
-    position:center;
 
 }
 
 .archive{
-    font-family: 'roboto-medium';    
+    font-family: 'longhaul';    
     text-align: center;
     font-size: 3em ;
     background-color: black;
+    color: white;
     width: 100%;
     padding-top: 0.5ch;
     padding-bottom: 0.5ch;

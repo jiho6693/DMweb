@@ -4,7 +4,7 @@ function gotop() {
   clearTimeout(timer);
   timer = setTimeout(function() {
     window.scroll(0,0);
-  }, 3600);
+  }, 10000);
 }
 
 document.addEventListener('mousemove', function() {
