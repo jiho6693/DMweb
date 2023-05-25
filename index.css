@@ -58,8 +58,8 @@ body {
 }
 
 
-.poster video{
-    max-width: 100%;
+.poster img{
+    width: 100%;
     height: auto;
     margin-bottom: 0px;
     margin-top: 0px;
