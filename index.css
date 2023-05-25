@@ -46,8 +46,8 @@ body {
 
 .description{
     background-color: white;
-    font-family: 'roboto';    
-    text-align: center;
+    font-family: 'roboto-medium';    
+    text-align: left;
     font-size: 2em ;
     color: black;
     padding-top: 3ch;
