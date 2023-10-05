@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'roboto-medium';
-    src: url('Roboto-Medium.ttf') format('truetype');
+    src: url('font/Roboto-Medium.ttf') format('truetype');
 }
 @font-face {
     font-family: 'longhaul';
-    src: url('Longhaul.ttf') format('truetype');
+    src: url('font/Longhaul.ttf') format('truetype');
 
 }
 
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -45,11 +45,11 @@ body {
 
 
 .description{
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     font-family: 'roboto-medium';    
     text-align: left;
     font-size: 2em ;
-    color: black;
+    color: rgb(210, 210, 210);
     padding-top: 3ch;
     padding-bottom: 3ch;
     padding-right: 3ch;
@@ -65,6 +65,15 @@ body {
     margin-top: 0px;
 
 }
+
+.poster1 img{
+    width: 50%;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
 
 .archive{
     font-family: 'longhaul';    

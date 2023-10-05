@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'roboto';
-    src: url('Roboto-Medium.ttf') format('truetype');
+    font-family: 'roboto-medium';
+    src: url('font/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'longhaul';
+    src: url('font/Longhaul.ttf') format('truetype');
+
 }
 
 body {
@@ -9,16 +14,52 @@ body {
     margin-right: 0px;
     margin-bottom: 0px;
 }
-.archive{
-    width:100%;
+
+.box {
+    width: 100%;
+    padding-top: 0.5ch;
+    padding-bottom: 0.5ch;
+    font-size: 3em ;
+
 }
 
-.head a {
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 2em ;
-    color: blue ;
-    font-family: 'roboto';
+.home{
     position:fixed;
-    text-decoration-line: none;
-   }
+    font-family: 'longhaul';    
+    text-align: center;
+    font-size: 3em ;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 0.5ch;
+    padding-bottom: 0.5ch;
+    margin-bottom:0px;
+}
+
+.home a:link, a:visited{
+    text-decoration: none ! important;
+    color:aliceblue;
+}   
+
+.archive {
+    font-size: 2em ;
+    margin-top:0.5%;
+    margin-left:0.5%;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+
+.archive p{
+    margin-top: 0%;
+    font-family: 'roboto-medium'; 
+}
+
+.thumb img{
+    width: 98.5%;
+  
+    
+  
+
+}
