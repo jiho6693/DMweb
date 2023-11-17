@@ -63,3 +63,10 @@ body {
   
 
 }
+
+.egg a:link, a:visited{
+    text-decoration: none ! important;
+    color:rgb(255, 255, 255);}
+
+.egg {
+        color:rgb(255, 255, 255);}
