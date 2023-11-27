@@ -9,6 +9,7 @@
 }
 
 body {
+   
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -53,7 +54,7 @@ body {
 .archive {
     font-size: 1.5vw ;
     margin-top:2%;
-    margin-left:4%;
+    margin-left:1%;
     text-align: left;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -66,7 +67,7 @@ body {
 }
 
 .thumb img{
-    width: 92%;
+    width: 98%;
   
     
   
