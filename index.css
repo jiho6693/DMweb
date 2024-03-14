@@ -14,6 +14,7 @@ a:link, a:visited{
 }   
     
 body {
+  
     background-color: rgb(0, 0, 0);
     margin-top: 0px;
     margin-left: 0px;
@@ -48,6 +49,7 @@ body {
 }
 
 .description{
+    white-space:pre-line;
     background-color: rgb(0, 0, 0);
     font-family: 'roboto-medium';    
     text-align: left;
@@ -62,6 +64,7 @@ body {
 
 .description2{
     background-color: rgb(0, 0, 0);
+    white-space:pre-line;
     font-family: 'roboto-medium';    
     text-align: left;
     font-size: 1.5em ;
