@@ -8,12 +8,9 @@
 
 }
 
-@media (min-width:769px) {
-   
-  
-    
 
-    body {
+
+body {
     background-color: black;
 
     margin-top: 0px;
@@ -62,109 +59,7 @@
     color: white !important;
     }
 
-    .archive {
-    white-space: pre-line;
-    color:white;
-    font-size: 1.2vw ;
-    margin-top:2%;
-
-    margin-right:3%;
-    text-align: right;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    }
-
     .archive p{
-    margin-top: 1%;
-    margin-left: 0%;
-    font-family: 'roboto-medium'; 
-    margin-bottom: 1%;
-    }
-
-
-
-    .thumb img{
-
-    width: 93%;
-
-
-
-
-    }
-
-    .egg a:link, a:visited{
-    text-decoration: none ! important;
-    color:rgb(0, 0, 0);}
-
-    .egg {
-        color:rgb(0, 0, 0);}
-}
-
-
-@media (max-width:768px) {
-    body {
-        background-color: black;
-    
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        -ms-overflow-style: none;
-        }
-    
-        .box {
-        width: 100%;
-        padding-top: 0.5ch;
-        padding-bottom: 0.5ch;
-        font-size: 3em ;
-    
-        }
-    
-        ::-webkit-scrollbar {
-        display: none;
-        }
-    
-        .target::-webkit-scrollbar {
-            display: none; /* Chrome, Safari, Opera*/
-        }
-    
-        .homebutton{
-        background-color: black;
-    
-        position: fixed;
-        font-family: 'longhaul';    
-        text-align: center;
-        font-size: 3em;
-        width: 100%;
-        padding-top: 0.5ch;
-        padding-bottom: 0.5ch;
-        margin-bottom: 0px;
-        }
-    
-    
-        .homebutton a:link, a:visited{
-        text-decoration: none;
-        color:white;
-        }   
-    
-        .homebutton a {
-        color: white !important;
-        }
-    
-        .archive {
-        white-space: pre-line;
-        color:white;
-        font-size: 1.2vw ;
-        margin-top:2%;
-    
-        margin-right:3%;
-        text-align: right;
-    
-    
-        }
-    
-        .archive p{
         margin-top: 1%;
         margin-left: 0%;
         font-family: 'roboto-medium'; 
@@ -188,5 +83,51 @@
     
         .egg {
             color:rgb(0, 0, 0);}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:769px) {
+   
+  
+    .archive {
+    white-space: pre-line;
+    color:white;
+    font-size: 1.2vw ;
+    margin-top:2%;
+    margin-right:3%;
+    text-align: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    }
+
+    
+}
+
+
+@media (max-width:768px) {
+  
+    
+        .archive {
+        white-space: pre-line;
+        color:white;
+        font-size: 2.5vw ;
+        margin-top:2%;
+        margin-right:3%;
+        text-align: right;
+    
+    
+        }
+    
+       
     }
     
