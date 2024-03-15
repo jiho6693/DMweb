@@ -22,9 +22,9 @@ body {
 
     .box {
     width: 100%;
-    padding-top: 0.5ch;
-    padding-bottom: 0.5ch;
-    font-size: 3em ;
+    padding-top: 0.3ch;
+    padding-bottom: 0.3ch;
+    
 
     }
 
@@ -36,18 +36,7 @@ body {
         display: none; /* Chrome, Safari, Opera*/
     }
 
-    .homebutton{
-    background-color: black;
-
-    position: fixed;
-    font-family: 'longhaul';    
-    text-align: center;
-    font-size: 3em;
-    width: 100%;
-    padding-top: 0.5ch;
-    padding-bottom: 0.5ch;
-    margin-bottom: 0px;
-    }
+  
 
 
     .homebutton a:link, a:visited{
@@ -59,49 +48,52 @@ body {
     color: white !important;
     }
 
-    .archive p{
-        margin-top: 1%;
-        margin-left: 0%;
-        font-family: 'roboto-medium'; 
-        margin-bottom: 1%;
-        }
+    .thumb{  white-space: pre-line;
+    }
     
     
     
-        .thumb img{
-    
-        width: 93%;
-    
-    
-    
-    
-        }
-    
-        .egg a:link, a:visited{
-        text-decoration: none ! important;
+    .thumb img{
+
+    width: 93%;
+
+
+
+
+    }
+
+    .egg a:link, a:visited{
+    text-decoration: none ! important;
+    color:rgb(0, 0, 0);}
+
+    .egg {
         color:rgb(0, 0, 0);}
-    
-        .egg {
-            color:rgb(0, 0, 0);}
-
-
-
-
-
-
-
-
-
 
 
 
 @media (min-width:769px) {
+
+    .homebutton{
+        background-color: black;
+    
+        position: fixed;
+        font-family: 'longhaul';    
+        text-align: center;
+        font-size: 3.5rem;
+        width: 100%;
+        padding-top: 0.5ch;
+        padding-bottom: 0.5ch;
+        margin-bottom: 0px;
+        }
+
+    
    
   
     .archive {
+    font-family: 'roboto-medium';   
     white-space: pre-line;
     color:white;
-    font-size: 1.2vw ;
+    font-size: 1.5rem ;
     margin-top:2%;
     margin-right:3%;
     text-align: right;
@@ -115,18 +107,29 @@ body {
 
 
 @media (max-width:768px) {
+    .homebutton{
+        background-color: black;
+    
+        position: fixed;
+        font-family: 'longhaul';    
+        text-align: center;
+        font-size: 2.5rem;
+        width: 100%;
+        padding-top: 0.5ch;
+        padding-bottom: 0.5ch;
+        margin-bottom: 0px;
+        }
   
     
-        .archive {
-        white-space: pre-line;
-        color:white;
-        font-size: 2.5vw ;
-        margin-top:2%;
-        margin-right:3%;
-        text-align: right;
-    
-    
-        }
+    .archive {
+    font-family: 'roboto-medium';  
+    color:white;
+    font-size: 3.5vw ;
+    margin-right:3%;
+    text-align: right;
+
+
+    }
     
        
     }
