@@ -22,8 +22,8 @@ body {
 
     .box {
     width: 100%;
-    padding-top: 0.3ch;
-    padding-bottom: 0.3ch;
+    padding-top: 4ch;
+    padding-bottom: 0.8ch;
     
 
     }
@@ -48,7 +48,7 @@ body {
     color: white !important;
     }
 
-    .thumb{  white-space: pre-line;
+    .thumb p{  white-space: pre-line;
     }
     
     
@@ -75,7 +75,7 @@ body {
 
     .homebutton{
         background-color: black;
-    
+
         position: fixed;
         font-family: 'longhaul';    
         text-align: center;
@@ -84,11 +84,8 @@ body {
         padding-top: 0.5ch;
         padding-bottom: 0.5ch;
         margin-bottom: 0px;
-        }
+    }
 
-    
-   
-  
     .archive {
     font-family: 'roboto-medium';   
     white-space: pre-line;
@@ -107,27 +104,29 @@ body {
 
 
 @media (max-width:768px) {
+   
     .homebutton{
         background-color: black;
-    
+
         position: fixed;
         font-family: 'longhaul';    
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         width: 100%;
         padding-top: 0.5ch;
         padding-bottom: 0.5ch;
         margin-bottom: 0px;
-        }
-  
+    }
+
     
     .archive {
     font-family: 'roboto-medium';  
     color:white;
+    margin-top:1%;
+  
     font-size: 3.5vw ;
     margin-right:3%;
     text-align: right;
-
 
     }
     
