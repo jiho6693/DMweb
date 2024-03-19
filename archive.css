@@ -70,7 +70,7 @@ body {
         color:rgb(0, 0, 0);}
 
 
-
+/* for computer screen-size */
 @media (min-width:769px) {
 
     .homebutton{
@@ -79,7 +79,7 @@ body {
         position: fixed;
         font-family: 'longhaul';    
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 3rem;
         width: 100%;
         padding-top: 0.5ch;
         padding-bottom: 0.5ch;
@@ -87,22 +87,22 @@ body {
     }
 
     .archive {
-    font-family: 'roboto-medium';   
-    white-space: pre-line;
-    color:white;
-    font-size: 1.5rem ;
-    margin-top:2%;
-    margin-right:3%;
-    text-align: right;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+        font-family: 'roboto-medium';   
+        white-space: pre-line;
+        color:white;
+        font-size: 1rem ;
+        margin-top:0%;
+        margin-right:3%;
+        text-align: right;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 
     }
 
     
 }
 
-
+/* for phone-size */
 @media (max-width:768px) {
    
     .homebutton{
@@ -120,13 +120,13 @@ body {
 
     
     .archive {
-    font-family: 'roboto-medium';  
-    color:white;
-    margin-top:1%;
-  
-    font-size: 3.5vw ;
-    margin-right:3%;
-    text-align: right;
+        font-family: 'roboto-medium';  
+        color:white;
+        margin-top:1%;
+    
+        font-size: 3.5vw ;
+        margin-right:3%;
+        text-align: right;
 
     }
     
